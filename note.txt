@@ -1,0 +1,6 @@
+  =====  MY PORTFOLIO  ===
+  time: 00:22:27:
+
+  ==== NPM INSTALL REACT-TYPE ANIMATION =====
+  - npm install react-type-animation
+  - npm install framer-motion
