@@ -1,14 +1,3 @@
-/*
-import React from 'react'
-
-const ProjectsSection = () => {
-  return (
-    <div>ProjectsSection</div>
-  )
-}
-export default ProjectsSection
-*/
-
 "use client";
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
