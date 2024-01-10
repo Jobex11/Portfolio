@@ -1,10 +1,11 @@
   =====  MY PORTFOLIO  ===
-  time: 00:53:22:
+  time: 1:43:00:
 
   ==== NPM INSTALL REACT-TYPE ANIMATION =====
   - npm install react-type-animation
   - npm install framer-motion
   - npm install @heroicons/react
+  -  npm install resend
 
 
   =====  NAVBAR   ======
@@ -19,3 +20,34 @@ time: 58:27
 
 ====  Email Section ====
 time: 1:20:03
+
+-> I didn't add a domain  at 1:23:45
+
+
+{
+  "name": "myportfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.1",
+    "framer-motion": "^10.17.9",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-type-animation": "^3.2.0",
+    "resend": "^2.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
