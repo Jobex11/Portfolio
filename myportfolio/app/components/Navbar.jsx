@@ -1,4 +1,5 @@
 "use client";
+import { Code as CodeIcon } from "react-feather";
 import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
@@ -30,7 +31,12 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
         >
-          LOGO
+          <div className="logo">
+            <span className="logo-span1">max</span>
+            <CodeIcon size={24} color="red" className="logo-span3" />
+
+            <span className="logo-span2">Chain</span>
+          </div>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (

@@ -25,3 +25,28 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.logo {
+  border: 1px solid rgb(227, 227, 244);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+  color: rgb(227, 227, 244);
+}
+.logo-span1 {
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.logo-span2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: monospace;
+}
+.logo-span3 {
+  display: inline;
+  font-weight: bold;
+}
