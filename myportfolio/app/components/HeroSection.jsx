@@ -38,12 +38,14 @@ const HeroSection = () => {
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Driven by passion and fueled by creativity, I craft digital
-            experiences that leave lasting impressions. Let's collaborate and
-            bring your vision to life.
+            experiences that leave lasting impressions. Let&apos;s collaborate
+            and bring your vision to life.
           </p>
           <div>
             <Link
-              href="/#contact"
+              //href="/#contact"
+              href="mailto:joblawal33@gmail.com"
+              target="_blank"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me
